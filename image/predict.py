@@ -35,6 +35,6 @@ def transform(file: Image.Image):
     return label
 
 if __name__ == "__main__":
-    img = read_image("./image/cardboard.jpg")
+    img = read_image("./cardboard.jpg")
     preds = transform(img)
     print(preds)

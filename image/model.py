@@ -25,6 +25,6 @@ def get_model():
     outputs=x
   )
 
-  final_model.load_weights("./image/final.weights.h5")
+  final_model.load_weights("./final.weights.h5")
 
   return final_model
